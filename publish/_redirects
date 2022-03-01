@@ -1,0 +1,10 @@
+/ /en-us 302! Cookie=nf_lang,nf_country Language=en Country=us
+/ /es-us 302! Cookie=nf_lang,nf_country Language=es Country=us
+
+/geo/geo.json /geo/geo.en.us.json 302 Language=en Country=us
+/geo/geo.json /geo/geo.en.uk.json 302 Language=en Country=uk
+# Rules for Spanish + a specific country
+/geo/geo.json /geo/geo.es.es.json 302 Language=es Country=es
+/geo/geo.json /geo/geo.es.us.json 302 Language=es Country=us
+# Rules for just Spanish
+/geo/geo.json /geo/geo.es.es.json 302 Language=es
